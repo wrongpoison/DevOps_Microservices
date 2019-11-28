@@ -1,0 +1,12 @@
+[2019-11-28 17:51:39,315] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2019-11-28 17:51:39,349] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2019-11-28 17:51:39,371] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2019-11-28 17:51:39,376] INFO in app: Prediction:[20.35373177134412]
+172.18.0.1 - - [28/Nov/2019 17:51:39] "POST /predict HTTP/1.1" 200 -
+172.18.0.1 - - [28/Nov/2019 17:52:08] "GET / HTTP/1.1" 200 -
+172.18.0.1 - - [28/Nov/2019 17:52:09] "GET /favicon.ico HTTP/1.1" 404 -
