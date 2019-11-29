@@ -1,4 +1,3 @@
-<include a CircleCI status badge, here>
 [![CircleCI](https://circleci.com/gh/wrongpoison/DevOps_Microservices.svg?style=svg)](https://circleci.com/gh/wrongpoison/DevOps_Microservices)
 
 ## Project Overview
